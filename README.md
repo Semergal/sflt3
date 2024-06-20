@@ -6,38 +6,43 @@
 ### Задание 1
 
 ##### Процесс выполнения
-1. Запустите два simple python сервера на своей виртуальной машине на разных портах
-2. Установите и настройте HAProxy, воспользуйтесь материалами к лекции по ссылке
-3. Настройте балансировку Round-robin на 4 уровне.
+1. Составьте команду rsync, которая позволяет создавать зеркальную копию домашней директории пользователя в директорию /tmp/backup
+2. Необходимо исключить из синхронизации все директории, начинающиеся с точки (скрытые)
+3. Необходимо сделать так, чтобы rsync подсчитывал хэш-суммы для всех файлов, даже если их время модификации и размер идентичны в источнике и приемнике.
+
 
 
 ##### Требования к результаты
-На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
+На проверку направить скриншот с командой и результатом ее выполнения
 
 ### Решение
 
-![alt text](https://github.com/Semergal/sflt/blob/master/img/Screenshot_1.jpg)
-![alt text](https://github.com/Semergal/sflt/blob/master/img/Screenshot_2.jpg)
+![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_1.jpg)
+![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_2.jpg)
+![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_3.jpg)
 
 
 
 ### Задание 2
 
 #### Процесс выполнения
-1. Запустите три simple python сервера на своей виртуальной машине на разных портах
-2. Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
-3. HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
+1. Написать скрипт и настроить задачу на регулярное резервное копирование домашней директории пользователя с помощью rsync и cron.
+2. Резервная копия должна быть полностью зеркальной
+3. Резервная копия должна создаваться раз в день, в системном логе должна появляться запись об успешном или неуспешном выполнении операции
+4. Резервная копия размещается локально, в директории /tmp/backup
+
 
 
 #### Требования к результаты
-На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
+На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
 
 
 ### Решение
 
-![alt text](https://github.com/Semergal/sflt/blob/master/img/Screenshot_3.jpg)
-![alt text](https://github.com/Semergal/sflt/blob/master/img/Screenshot_4.jpg)
+![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_4.jpg)
+![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_5.jpg)
+![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_6.jpg)
 
 
 
