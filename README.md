@@ -17,9 +17,9 @@
 
 ### Решение
 
-![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_1.jpg)
-![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_2.jpg)
-![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_3.jpg)
+![alt text](https://github.com/Semergal/sflt3/blob/main/img/Screenshot_1.jpg)
+![alt text](https://github.com/Semergal/sflt3/blob/main/img/Screenshot_2.jpg)
+![alt text](https://github.com/Semergal/sflt3/blob/main/img/Screenshot_3.jpg)
 
 
 
@@ -40,9 +40,9 @@
 
 ### Решение
 
-![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_4.jpg)
-![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_5.jpg)
-![alt text](https://github.com/Semergal/sflt3/master/img/Screenshot_6.jpg)
+![alt text](https://github.com/Semergal/sflt3/blob/main/img/Screenshot_4.jpg)
+![alt text](https://github.com/Semergal/sflt3/blob/main/img/Screenshot_5.jpg)
+![alt text](https://github.com/Semergal/sflt3/blob/main/img/Screenshot_6.jpg)
 
 
 
